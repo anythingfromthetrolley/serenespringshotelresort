@@ -1,0 +1,116 @@
+
+
+
+https://media.cntraveller.com/photos/61729e16d5381181986780ea/3:2/w_7443,h_4962,c_limit/Aire-spa-london-oct21-pr.jpeg
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapers.com%2Fpicture%2Faesthetic-beach-pictures-zow3zo4l2gdtzy0g.html&psig=AOvVaw2WH5Y0tkNmmjiOC9Cixubb&ust=1694331115110000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNCw7bOBnYEDFQAAAAAdAAAAABAE
+
+
+https://df4gcsff7xjx7.cloudfront.net/2019/02/kayaking-header-mobile.jpg
+
+https://assets.easyweddings.com/files/2021/11/18163742/kimpton-fitzroy-wedding-ceremony-reception-london-venue-021-945x500-1.jpg
+
+https://www.lottehotel.com/content/dam/lotte-hotel/lotte/world/convention/meeting/180706-17-2000-con-world-hotel.jpg.thumb.768.768.jpg
+
+https://assets.cntraveller.in/photos/6352d17e0831d51e5aa1070b/1:1/w_3635,h_3635,c_limit/Image%20to%20begin%20with%20(%20Rosado).JPEG
+
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
+
+<nav>
+            <div class="nav">
+              <div class="logo">
+                <a href="/html/index.html">
+                    <img src="/assets/logo.png" class="logo" alt="Logo image" >
+                </a>
+              </div>
+                <ul class="nav-links">
+                    <li><a href="/html/index.html">HOME</a></li>
+                    <li><a href="/html/branches.html">BRANCHES</a></li>
+                    <li><a href="/html/adventures.html">ADVENTURES</a></li>
+                    <li class="dropdown">
+                        <a href="/html/restaurants.html" class="dropbtn">RESTAURANTS</a> 
+                        <div class="dropdown-content">
+                            <a href="/html/event1.html">Event 01</a>
+                            <a href="/html/event2.html">Event 02</a>
+                        </div>
+                    </li>
+                    <li><a href="/html/booking.html">BOOKING</a></li>
+                    <li><a href="/html/contact.html">CONTACT</a></li>
+                    <li><a href="/html/sign.html">SIGN UP</a></li>
+
+                  </ul>
+                </div>
+
+li a, .dropbtn {
+    display: inline-block;
+    color: rgb(45, 77, 105);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(30, 28, 82);
+}
+
+li.dropdown {
+    display: list-item;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0f3242;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+-----------------------------------------------
+nav ul .dropdown{
+    position: relative;
+}
+
+nav ul .dropdown :hover .dropdownmenu{
+    display: block;
+}
+
+nav ul .dropdownmenu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 1;
+}
+
+nav ul .dropdownmenu li{
+    display: block;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+}
